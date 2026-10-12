@@ -1,6 +1,83 @@
 {
-  "count": 2370,
+  "count": 2378,
   "reports": [
+    {
+      "title": "腾讯控股（0700.HK）投资研究报告",
+      "path": "reports/腾讯/腾讯-research-20261012.md",
+      "bucket": "公司",
+      "group": "腾讯",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-12",
+      "date_source": "文件名",
+      "ticker": ""
+    },
+    {
+      "title": "智谱（Z.AI，02513.HK）投资研究报告",
+      "path": "reports/智谱/智谱-research-20261012.md",
+      "bucket": "公司",
+      "group": "智谱",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-12",
+      "date_source": "文件名",
+      "ticker": ""
+    },
+    {
+      "title": "智谱（Z.AI，02513.HK）投研团队最终汇总报告",
+      "path": "reports/智谱/团队研究/team-lead-汇总-20261012.md",
+      "bucket": "公司",
+      "group": "智谱",
+      "series": "团队研究",
+      "type": "研究",
+      "date": "2026-10-12",
+      "date_source": "文件名",
+      "ticker": ""
+    },
+    {
+      "title": "智谱（02513.HK）风险管理 · 李录视角",
+      "path": "reports/智谱/团队研究/risk-assessor-20261012.md",
+      "bucket": "公司",
+      "group": "智谱",
+      "series": "团队研究",
+      "type": "研究",
+      "date": "2026-10-12",
+      "date_source": "文件名",
+      "ticker": ""
+    },
+    {
+      "title": "智谱（02513.HK）行业纵深与竞争格局研究 · 芒格视角",
+      "path": "reports/智谱/团队研究/industry-researcher-20261012.md",
+      "bucket": "公司",
+      "group": "智谱",
+      "series": "团队研究",
+      "type": "研究",
+      "date": "2026-10-12",
+      "date_source": "文件名",
+      "ticker": ""
+    },
+    {
+      "title": "智谱（Z.AI，02513.HK）财务与估值深度分析",
+      "path": "reports/智谱/团队研究/financial-analyst-20261012.md",
+      "bucket": "公司",
+      "group": "智谱",
+      "series": "团队研究",
+      "type": "研究",
+      "date": "2026-10-12",
+      "date_source": "文件名",
+      "ticker": ""
+    },
+    {
+      "title": "智谱（Z.AI，02513.HK）商业模式与护城河分析",
+      "path": "reports/智谱/团队研究/business-analyst-20261012.md",
+      "bucket": "公司",
+      "group": "智谱",
+      "series": "团队研究",
+      "type": "研究",
+      "date": "2026-10-12",
+      "date_source": "文件名",
+      "ticker": ""
+    },
     {
       "title": "李录哥大对谈：来源与译文核查记录",
       "path": "reports/李录/李录-哥大对谈-核查说明-20261009.md",
@@ -48,6 +125,17 @@
     {
       "title": "李录：哥大商学院第36届格雷厄姆与多德年度论坛对谈实录（2026-10-05）",
       "path": "reports/李录/李录-哥大格雷厄姆多德论坛对谈实录-20261005.md",
+      "bucket": "大师研究",
+      "group": "李录",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-05",
+      "date_source": "文件名",
+      "ticker": ""
+    },
+    {
+      "title": "李录2026年10月5日哥大对谈：长篇整理稿与原始来源索引",
+      "path": "reports/李录/李录-20261005哥大演讲-全文来源索引-20261012.md",
       "bucket": "大师研究",
       "group": "李录",
       "series": "",
