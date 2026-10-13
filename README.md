@@ -16,7 +16,7 @@
 
 <!-- REPORTS-BANNER:START 由 tools/reports_index.py 自动更新，勿手改 -->
 
-> 📊 **日更内容是研究报告，全部在 [研究报告索引](reports/README.md)。** 2383 份报告 · 113 家公司 · 23 个专题，按公司与专题分组，更新至 2026-10-13。
+> 📊 **日更内容是研究报告，全部在 [研究报告索引](reports/README.md)。** 2385 份报告 · 115 家公司 · 23 个专题，按公司与专题分组，更新至 2026-10-13。
 
 <!-- REPORTS-BANNER:END -->
 
@@ -657,7 +657,7 @@ REM 可选：安装 Codex slash prompts
 
 <!-- REPORTS-INDEX:START 由 tools/reports_index.py 自动更新，勿手改 -->
 
-**📊 [全部研究索引 →](reports/README.md)** ｜ 2383 份报告 · 113 家公司 · 23 个专题 · 更新至 2026-10-13
+**📊 [全部研究索引 →](reports/README.md)** ｜ 2385 份报告 · 115 家公司 · 23 个专题 · 更新至 2026-10-13
 
 最近更新：
 
@@ -666,9 +666,9 @@ REM 可选：安装 Codex slash prompts
 | 2026-10-13 | [阿里巴巴（9988.HK / BABA.US）投资研究报告](reports/阿里巴巴/阿里巴巴-research-20261013.md) | 阿里巴巴 |
 | 2026-10-13 | [赤峰黄金（600988.SH/06693.HK）8 步投资研究报告](reports/赤峰黄金/赤峰黄金-research-20261013.md) | 赤峰黄金 |
 | 2026-10-13 | [香港交易所（00388.HK / 80388.HK）投资研究报告](reports/港交所/港交所-research-20261013.md) | 港交所 |
+| 2026-10-13 | [浪潮信息（000977.SZ）投资研究报告](reports/浪潮信息/浪潮信息-research-20261013.md) | 浪潮信息 |
+| 2026-10-13 | [沪电股份（002463.SZ）投资研究报告](reports/沪电股份/沪电股份-research-20261013.md) | 沪电股份 |
 | 2026-10-13 | [吉比特（603444.SH）投资研究报告](reports/吉比特/吉比特-research-20261013.md) | 吉比特 |
-| 2026-10-13 | [Anthropic 投资研究报告](reports/Anthropic/Anthropic-research-20261013.md) | Anthropic |
-| 2026-10-12 | [腾讯控股（0700.HK）投资研究报告](reports/腾讯/腾讯-research-20261012.md) | 腾讯 |
 
 <!-- REPORTS-INDEX:END -->
 
