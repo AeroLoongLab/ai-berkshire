@@ -3,6 +3,8 @@
 __pycache__/
 *.pyc
 .codex/
+.workbuddy/
+*.swp
 /tmp/
 logs/command-log.jsonl
 reports/美团/command-log.jsonl
