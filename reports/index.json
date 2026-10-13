@@ -1,6 +1,39 @@
 {
-  "count": 2378,
+  "count": 2381,
   "reports": [
+    {
+      "title": "阿里巴巴（9988.HK / BABA.US）投资研究报告",
+      "path": "reports/阿里巴巴/阿里巴巴-research-20261013.md",
+      "bucket": "公司",
+      "group": "阿里巴巴",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-13",
+      "date_source": "文件名",
+      "ticker": ""
+    },
+    {
+      "title": "香港交易所（00388.HK / 80388.HK）投资研究报告",
+      "path": "reports/港交所/港交所-research-20261013.md",
+      "bucket": "公司",
+      "group": "港交所",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-13",
+      "date_source": "文件名",
+      "ticker": ""
+    },
+    {
+      "title": "Anthropic 投资研究报告",
+      "path": "reports/Anthropic/Anthropic-research-20261013.md",
+      "bucket": "公司",
+      "group": "Anthropic",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-13",
+      "date_source": "文件名",
+      "ticker": ""
+    },
     {
       "title": "腾讯控股（0700.HK）投资研究报告",
       "path": "reports/腾讯/腾讯-research-20261012.md",
