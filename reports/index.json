@@ -1,6 +1,28 @@
 {
-  "count": 2386,
+  "count": 2388,
   "reports": [
+    {
+      "title": "电力行业全产业链漏斗式价值投资筛选",
+      "path": "reports/电力-industry-funnel-20261014.md",
+      "bucket": "专题",
+      "group": "综合与横评",
+      "series": "",
+      "type": "industry-funnel",
+      "date": "2026-10-14",
+      "date_source": "front-matter",
+      "ticker": ""
+    },
+    {
+      "title": "新易盛（300502.SZ）投资研究报告",
+      "path": "reports/新易盛/新易盛-research-20261014.md",
+      "bucket": "公司",
+      "group": "新易盛",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-14",
+      "date_source": "文件名",
+      "ticker": ""
+    },
     {
       "title": "AI 芯片 — 漏斗式价值投资筛选：从全市场 82 家到终选 3 家",
       "path": "reports/AI芯片-funnel-20261014.md",
