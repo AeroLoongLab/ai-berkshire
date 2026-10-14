@@ -1,5 +1,5 @@
 {
-  "count": 2388,
+  "count": 2389,
   "reports": [
     {
       "title": "电力行业全产业链漏斗式价值投资筛选",
@@ -10,6 +10,17 @@
       "type": "industry-funnel",
       "date": "2026-10-14",
       "date_source": "front-matter",
+      "ticker": ""
+    },
+    {
+      "title": "澜起科技（688008.SH / 06809.HK）投资研究报告",
+      "path": "reports/澜起科技/澜起科技-research-20261014.md",
+      "bucket": "公司",
+      "group": "澜起科技",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-14",
+      "date_source": "文件名",
       "ticker": ""
     },
     {
