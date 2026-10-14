@@ -1,5 +1,5 @@
 {
-  "count": 2389,
+  "count": 2390,
   "reports": [
     {
       "title": "电力行业全产业链漏斗式价值投资筛选",
@@ -28,6 +28,17 @@
       "path": "reports/新易盛/新易盛-research-20261014.md",
       "bucket": "公司",
       "group": "新易盛",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-14",
+      "date_source": "文件名",
+      "ticker": ""
+    },
+    {
+      "title": "寒武纪（688256.SH）投资研究报告",
+      "path": "reports/寒武纪/寒武纪-research-20261014.md",
+      "bucket": "公司",
+      "group": "寒武纪",
       "series": "",
       "type": "研究",
       "date": "2026-10-14",
