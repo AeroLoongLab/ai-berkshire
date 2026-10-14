@@ -1,6 +1,17 @@
 {
-  "count": 2385,
+  "count": 2386,
   "reports": [
+    {
+      "title": "AI 芯片 — 漏斗式价值投资筛选：从全市场 82 家到终选 3 家",
+      "path": "reports/AI芯片-funnel-20261014.md",
+      "bucket": "专题",
+      "group": "综合与横评",
+      "series": "",
+      "type": "筛选",
+      "date": "2026-10-14",
+      "date_source": "文件名",
+      "ticker": ""
+    },
     {
       "title": "阿里巴巴（9988.HK / BABA.US）投资研究报告",
       "path": "reports/阿里巴巴/阿里巴巴-research-20261013.md",
