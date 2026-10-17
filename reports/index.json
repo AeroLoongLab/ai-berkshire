@@ -1,6 +1,72 @@
 {
-  "count": 2390,
+  "count": 2396,
   "reports": [
+    {
+      "title": "科创50（000688.SH）投资研究报告 — 一只 82% 是半导体的\"科技宽基\"，值不值得买",
+      "path": "reports/科创50/科创50-research-20261017.md",
+      "bucket": "专题",
+      "group": "科创50",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-17",
+      "date_source": "文件名",
+      "ticker": ""
+    },
+    {
+      "title": "沪深300（000300.SH）投资研究报告 — 13 倍 PE、2.75% 股息，以及一个没人愿意说出口的政策天花板",
+      "path": "reports/沪深300/沪深300-research-20261017.md",
+      "bucket": "专题",
+      "group": "沪深300",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-17",
+      "date_source": "文件名",
+      "ticker": ""
+    },
+    {
+      "title": "拼多多（PDD Holdings / NASDAQ: PDD）投资研究报告",
+      "path": "reports/拼多多/拼多多-research-20261017.md",
+      "bucket": "公司",
+      "group": "拼多多",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-17",
+      "date_source": "文件名",
+      "ticker": ""
+    },
+    {
+      "title": "中际旭创（300308.SZ）投资研究报告 — 全球光模块第一，但每 100 元利润只回笼了 13 元现金",
+      "path": "reports/中际旭创/中际旭创-research-20261017.md",
+      "bucket": "公司",
+      "group": "中际旭创",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-17",
+      "date_source": "文件名",
+      "ticker": "300308"
+    },
+    {
+      "title": "银行 — 漏斗式价值投资筛选：从全市场 90 家到终选 3 家",
+      "path": "reports/银行-funnel-20261015.md",
+      "bucket": "专题",
+      "group": "综合与横评",
+      "series": "",
+      "type": "筛选",
+      "date": "2026-10-15",
+      "date_source": "文件名",
+      "ticker": ""
+    },
+    {
+      "title": "招商银行（600036.SH / 03968.HK）— 四大师投资研究报告",
+      "path": "reports/招商银行/招商银行-research-20261015.md",
+      "bucket": "公司",
+      "group": "招商银行",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-15",
+      "date_source": "文件名",
+      "ticker": ""
+    },
     {
       "title": "电力行业全产业链漏斗式价值投资筛选",
       "path": "reports/电力-industry-funnel-20261014.md",
