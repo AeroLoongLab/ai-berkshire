@@ -14,7 +14,12 @@ validation tools. Keep compatibility with both Claude Code and Codex users.
 - `tools/*.py`: shared financial validation and data tools used by both systems.
 - `reports/`: research outputs. Do not rewrite unrelated reports while changing
   tooling or skills.
+- `.dsh/skills/*/SKILL.md`: DeepSeek Harness skills, generated from
+  `skills/*.md` (project-level discovery path; DSH also needs YAML front-matter
+  with `name` + `description`, which the generator adds).
 - `scripts/sync-codex-skills.py`: regenerates Codex skills from `skills/*.md`.
+- `scripts/sync-dsh-skills.py`: regenerates the DeepSeek Harness skills from
+  `skills/*.md`.
 - `scripts/install-codex-skills.sh` / `scripts/install-codex-skills.bat`:
   installs Codex skills locally.
 - `scripts/install-codex-prompts.sh` / `scripts/install-codex-prompts.bat`:
@@ -27,6 +32,7 @@ validation tools. Keep compatibility with both Claude Code and Codex users.
 - Treat `skills/*.md` as the canonical workflow source.
 - After changing any file in `skills/`, run:
   `python3 scripts/sync-codex-skills.py`
+  and `python3 scripts/sync-dsh-skills.py`
 - If slash prompt compatibility is needed, also run:
   `python3 scripts/sync-codex-prompts.py`
 - Do not manually edit generated `codex-skills/*/SKILL.md` unless also updating
@@ -65,5 +71,6 @@ validation tools. Keep compatibility with both Claude Code and Codex users.
   `python3 scripts/sync-codex-skills.py`
 - To verify generated Codex artifacts are current without rewriting files, run:
   `python3 scripts/sync-codex-skills.py --check`
+  `python3 scripts/sync-dsh-skills.py --check`
   and, when slash prompts are relevant:
   `python3 scripts/sync-codex-prompts.py --check`

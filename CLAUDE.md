@@ -9,6 +9,7 @@ GitHub: xbtlin/ai-berkshire
 
 ```
 skills/          — 投研 Skill 定义（.md），复制到 ~/.claude/commands/ 使用
+.dsh/skills/     — DeepSeek Harness 技能（由 scripts/sync-dsh-skills.py 从 skills/ 生成，勿手改）
 tools/           — 辅助工具（financial_rigor.py 精确计算、twstock_data.py 台股FinMind取数）
 reports/         — 投资研究报告输出
 assets/          — 图片等静态资源
@@ -115,6 +116,8 @@ python3 tools/reports_index.py --check
 - 货币单位要明确（港币/人民币/美元/新台币），防止混淆
 - PE/ROE等指标用 tools/financial_rigor.py 精确计算
 - 台股数据用 tools/twstock_data.py（FinMind）获取，并按 skills/financial-data.md 台股章节交叉验证
+- 改完 `skills/*.md` 后要跑 `python3 scripts/sync-dsh-skills.py`（供 DeepSeek Harness 使用），
+  校验一致性用 `--check`
 - 报告写完后主动询问是否推送到GitHub
 - **推送前必须跑 `python3 tools/reports_index.py` 刷新索引**，否则 CI 的索引校验会失败
 - 新报告文件名带 `-YYYYMMDD` 后缀、正文首行写 `# 标题`，索引即可自动识别；
