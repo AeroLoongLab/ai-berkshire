@@ -1,6 +1,28 @@
 {
-  "count": 2397,
+  "count": 2398,
   "reports": [
+    {
+      "title": "贵州茅台（600519.SH）投资研究报告",
+      "path": "reports/茅台/贵州茅台-research-20261018.md",
+      "bucket": "公司",
+      "group": "茅台",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-18",
+      "date_source": "文件名",
+      "ticker": ""
+    },
+    {
+      "title": "供应链瓶颈 Top 5 投资机会",
+      "path": "reports/bottleneck-map/top-opportunities.md",
+      "bucket": "筛选池",
+      "group": "bottleneck-map",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-18",
+      "date_source": "正文",
+      "ticker": ""
+    },
     {
       "title": "科创50（000688.SH）投资研究报告 — 一只 82% 是半导体的\"科技宽基\"，值不值得买",
       "path": "reports/科创50/科创50-research-20261017.md",
@@ -11746,17 +11768,6 @@
       "series": "2026-06-06",
       "type": "研究",
       "date": "2026-06-06",
-      "date_source": "正文",
-      "ticker": ""
-    },
-    {
-      "title": "供应链瓶颈 Top 5 投资机会",
-      "path": "reports/bottleneck-map/top-opportunities.md",
-      "bucket": "筛选池",
-      "group": "bottleneck-map",
-      "series": "",
-      "type": "研究",
-      "date": "2026-06-05",
       "date_source": "正文",
       "ticker": ""
     },
