@@ -1,5 +1,5 @@
 {
-  "count": 2396,
+  "count": 2397,
   "reports": [
     {
       "title": "科创50（000688.SH）投资研究报告 — 一只 82% 是半导体的\"科技宽基\"，值不值得买",
@@ -28,6 +28,17 @@
       "path": "reports/拼多多/拼多多-research-20261017.md",
       "bucket": "公司",
       "group": "拼多多",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-17",
+      "date_source": "文件名",
+      "ticker": ""
+    },
+    {
+      "title": "中国平安（601318.SH / 02318.HK）投资研究报告",
+      "path": "reports/平安集团/平安集团-research-20261017.md",
+      "bucket": "公司",
+      "group": "平安集团",
       "series": "",
       "type": "研究",
       "date": "2026-10-17",
