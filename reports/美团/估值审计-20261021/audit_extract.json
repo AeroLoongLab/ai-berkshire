@@ -1,0 +1,409 @@
+======================================================================
+报告数据抽检清单
+文件：reports/美团/美团-research-20261021.md
+总提取数据点：345  |  抽样比例：15%  |  抽检数量：30
+随机种子：42（可用于复现同一批样本）
+======================================================================
+
+ ID     行号  数据标签                                          报告值  单位
+───  ─────  ───────────────────────────────────  ────────────  ──────
+  4     40  收盘价 · 数值                                    76.10  
+ 13     47  总市值 · 数值                                  4699.56  亿港元
+ 14     47  总市值 · 来源                                    76.10  
+ 17     55  收入 · 2023                                 2767.45  
+ 16     55  收入 · 2022                                 2199.55  
+ 45     61  现金及短期投资 · 2021                            1167.95  
+ 48     61  现金及短期投资 · 2024                            1682.43  
+ 53     71  总收入 · 2026Q2                              1046.43  
+ 58     73  新业务收入 · 2025Q3                             280.41  
+ 72     87  现金等价物 · 数值（亿元人民币）                         1047.17  
+ 82     98  PS (TTM) · 交叉验证                              0.42  %
+102    123  未分配项目净额 · 2024 经营利润                        -82.97  
+112    228  2026-06-26 · 结果                        2924800.00  
+113    229  2026-09-29 · 结果                             50.00  
+115    236  研发回报 · 评价                                   76.70  亿
+120    294  EV（总） · 数值                                3299.17  亿
+126    306  正常化税后利润（亿元） · 乐观                           484.66  
+141    311  三年累计年化（自 76.10） · 乐观                        30.55  %
+143    321  r（资本成本） · 理由                                 6.00  %
+215    407  252.17（=2029 水平不增） · 十年 IRR                  0.88  %
+217    411  673.95（基准） · 2029–2036 隐含 CAGR              15.08  %
+230    424  乐观 · 占模型                                    33.46  %
+259    439  DoorDash (DASH) · PS (TTM)                   5.25  
+280    454  72.25 · 十年 IRR（人民币口径）                       10.62  %
+288    456  65.00 · 三年（至2029）年化                          8.52  %
+303    513  收盘价（2026-10-20） · 来源 2                      76.10  
+302    513  收盘价（2026-10-20） · 来源 1                      76.10  
+309    515  总市值 · 来源 2                                4699.56  亿
+328    522  2026H1 经营现金流 · 来源 2                         27.19  
+333    524  PS (TTM) · 偏差                                0.42  %
+
+↑ 请对上述每个数据点，从以下信源取数，填入 fetched_value：
+  美股：macrotrends.net（主）+ stockanalysis.com（副）
+  港股：aastocks.com（主）+ macrotrends ADR（副）
+  A股： eastmoney.com（主）+ cninfo.com.cn（副）
+
+抽检清单 JSON（填入 fetched_value 后，传给 verdict 命令）：
+
+[
+  {
+    "id": 4,
+    "label": "收盘价 · 数值",
+    "reported_value": 76.1,
+    "unit": "",
+    "line_number": 40,
+    "raw_text": "| 收盘价 | **76.10 港元** | 腾讯行情 + 新浪财经，双源一致（Investing 报 76.15，差 0.07%，属报价时点差） |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 13,
+    "label": "总市值 · 数值",
+    "reported_value": 4699.56,
+    "unit": "亿港元",
+    "line_number": 47,
+    "raw_text": "| **总市值** | **4,699.56 亿港元 / 4,024.14 亿人民币** | 76.10 × 61.7551 亿股；`tools/financial_rigor.py verify-market-cap` 偏差 0.00% ",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 14,
+    "label": "总市值 · 来源",
+    "reported_value": 76.1,
+    "unit": "",
+    "line_number": 47,
+    "raw_text": "| **总市值** | **4,699.56 亿港元 / 4,024.14 亿人民币** | 76.10 × 61.7551 亿股；`tools/financial_rigor.py verify-market-cap` 偏差 0.00% ",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 17,
+    "label": "收入 · 2023",
+    "reported_value": 2767.45,
+    "unit": "",
+    "line_number": 55,
+    "raw_text": "| 收入 | 1,791.28 | 2,199.55 | 2,767.45 | 3,375.92 | 3,648.55 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 16,
+    "label": "收入 · 2022",
+    "reported_value": 2199.55,
+    "unit": "",
+    "line_number": 55,
+    "raw_text": "| 收入 | 1,791.28 | 2,199.55 | 2,767.45 | 3,375.92 | 3,648.55 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 45,
+    "label": "现金及短期投资 · 2021",
+    "reported_value": 1167.95,
+    "unit": "",
+    "line_number": 61,
+    "raw_text": "| 现金及短期投资 | 1,167.95 | 1,120.32 | 1,451.60 | 1,682.43 | 1,668.34 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 48,
+    "label": "现金及短期投资 · 2024",
+    "reported_value": 1682.43,
+    "unit": "",
+    "line_number": 61,
+    "raw_text": "| 现金及短期投资 | 1,167.95 | 1,120.32 | 1,451.60 | 1,682.43 | 1,668.34 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 53,
+    "label": "总收入 · 2026Q2",
+    "reported_value": 1046.43,
+    "unit": "",
+    "line_number": 71,
+    "raw_text": "| 总收入 | 950.62 | 920.96 | 910.39 | 1,046.43（+14.4%） |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 58,
+    "label": "新业务收入 · 2025Q3",
+    "reported_value": 280.41,
+    "unit": "",
+    "line_number": 73,
+    "raw_text": "| 新业务收入 | 280.41 | 272.62 | 269.76 | 331.12（+25%） |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 72,
+    "label": "现金等价物 · 数值（亿元人民币）",
+    "reported_value": 1047.17,
+    "unit": "",
+    "line_number": 87,
+    "raw_text": "| 现金等价物 | 1,047.17 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 82,
+    "label": "PS (TTM) · 交叉验证",
+    "reported_value": 0.42,
+    "unit": "%",
+    "line_number": 98,
+    "raw_text": "| PS (TTM) | 1.051 | StockAnalysis 1.06 | ✅ 偏差 0.42% |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 102,
+    "label": "未分配项目净额 · 2024 经营利润",
+    "reported_value": -82.97,
+    "unit": "",
+    "line_number": 123,
+    "raw_text": "| 未分配项目净额 | — | — | -82.97 | -80.55 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 112,
+    "label": "2026-06-26 · 结果",
+    "reported_value": 2924800.0,
+    "unit": "",
+    "line_number": 228,
+    "raw_text": "| 2026-06-26 | 股东周年大会，CFO 陈少晖称\"公司价值被严重低估，计划进行股票回购\" | **实际回购 2,924,800 股、涉资约 1.998 亿港元（六月二十九、三十日两日），截至核查日尚未注销** | ★★☆☆☆ |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 113,
+    "label": "2026-09-29 · 结果",
+    "reported_value": 50.0,
+    "unit": "",
+    "line_number": 229,
+    "raw_text": "| 2026-09-29 | 与全国骑手代表签署年度劳动规则和算法协商协议 | 50 余场恳谈会、近 1 万条诉求、38 条重点议题；提高超重/爬楼订单计费权重、取消超时扣款、红灯停表试点 | ★★★★☆ |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 115,
+    "label": "研发回报 · 评价",
+    "reported_value": 76.7,
+    "unit": "亿",
+    "line_number": 236,
+    "raw_text": "| 研发回报 | 研发 76.70 亿/季（+22.5%，占收入 7.3%），但归因不可审计——公司未披露 AI 独立损益、逐场景 ROI |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 120,
+    "label": "EV（总） · 数值",
+    "reported_value": 3299.17,
+    "unit": "亿",
+    "line_number": 294,
+    "raw_text": "| EV（总） | 3,299.17 亿人民币 | EV/Sales 0.862x |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 126,
+    "label": "正常化税后利润（亿元） · 乐观",
+    "reported_value": 484.66,
+    "unit": "",
+    "line_number": 306,
+    "raw_text": "| 正常化税后利润（亿元） | -55.23 | 252.17 | 484.66 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 141,
+    "label": "三年累计年化（自 76.10） · 乐观",
+    "reported_value": 30.55,
+    "unit": "%",
+    "line_number": 311,
+    "raw_text": "| 三年累计年化（自 76.10） | **-70.82%** | **+2.96%** | **+30.55%** |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 143,
+    "label": "r（资本成本） · 理由",
+    "reported_value": 6.0,
+    "unit": "%",
+    "line_number": 321,
+    "raw_text": "| **r（资本成本）** | **8.0%** | 现金流币种是人民币。人民币口径合理区间 6%–9%，主用 8%。无风险利率取中国 10 年期国债 **1.6530%**（2026-10-19，中债/中国货币网；10-20 进一步下探至",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 215,
+    "label": "252.17（=2029 水平不增） · 十年 IRR",
+    "reported_value": 0.88,
+    "unit": "%",
+    "line_number": 407,
+    "raw_text": "| 252.17（=2029 水平不增） | 0.00% | 4,392.51 | +0.88% | 83.07 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 217,
+    "label": "673.95（基准） · 2029–2036 隐含 CAGR",
+    "reported_value": 15.08,
+    "unit": "%",
+    "line_number": 411,
+    "raw_text": "| **673.95（基准）** | **+15.08%** | 10,484.90 | **+10.05%** | 198.28 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 230,
+    "label": "乐观 · 占模型",
+    "reported_value": 33.46,
+    "unit": "%",
+    "line_number": 424,
+    "raw_text": "| 乐观 | 16.0x | 467.99 | 模型的 33.46% | 4.45% | -7.10% |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 259,
+    "label": "DoorDash (DASH) · PS (TTM)",
+    "reported_value": 5.25,
+    "unit": "",
+    "line_number": 439,
+    "raw_text": "| DoorDash (DASH) | USD 194.03 | 840.7 亿美元 | 5.25 | 101.80 | 8.45 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 280,
+    "label": "72.25 · 十年 IRR（人民币口径）",
+    "reported_value": 10.62,
+    "unit": "%",
+    "line_number": 454,
+    "raw_text": "| 72.25 | 10.62% | 8.45% | +4.76% |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 288,
+    "label": "65.00 · 三年（至2029）年化",
+    "reported_value": 8.52,
+    "unit": "%",
+    "line_number": 456,
+    "raw_text": "| **65.00** | **11.80%** | **9.61%** | **+8.52%** |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 303,
+    "label": "收盘价（2026-10-20） · 来源 2",
+    "reported_value": 76.1,
+    "unit": "",
+    "line_number": 513,
+    "raw_text": "| 收盘价（2026-10-20） | 76.10 HKD | 腾讯行情 76.10 | 新浪财经 76.10 | 0.00% | ✅ 双源一致 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 302,
+    "label": "收盘价（2026-10-20） · 来源 1",
+    "reported_value": 76.1,
+    "unit": "",
+    "line_number": 513,
+    "raw_text": "| 收盘价（2026-10-20） | 76.10 HKD | 腾讯行情 76.10 | 新浪财经 76.10 | 0.00% | ✅ 双源一致 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 309,
+    "label": "总市值 · 来源 2",
+    "reported_value": 4699.5618,
+    "unit": "亿",
+    "line_number": 515,
+    "raw_text": "| 总市值 | 4,699.56 亿 HKD | 76.10 × 61.7551 亿股 | 腾讯行情总市值 4699.5618 亿 | 0.00% | ✅ `verify-market-cap` 通过 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 328,
+    "label": "2026H1 经营现金流 · 来源 2",
+    "reported_value": 27.19,
+    "unit": "",
+    "line_number": 522,
+    "raw_text": "| 2026H1 经营现金流 | 27.19 亿元 | 港交所半年报 | 华盛通 27.19 | 0.00% | ⚠️ 抄录校验 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 333,
+    "label": "PS (TTM) · 偏差",
+    "reported_value": 0.42,
+    "unit": "%",
+    "line_number": 524,
+    "raw_text": "| PS (TTM) | 1.051x | 自算（人民币口径） | StockAnalysis 1.06 | 0.42% | ✅ 一致 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  }
+]

@@ -1,6 +1,28 @@
 {
-  "count": 2399,
+  "count": 2401,
   "reports": [
+    {
+      "title": "美团（03690.HK）投资研究报告",
+      "path": "reports/美团/美团-research-20261021.md",
+      "bucket": "公司",
+      "group": "美团",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-21",
+      "date_source": "文件名",
+      "ticker": ""
+    },
+    {
+      "title": "审计范围 — 美团-research-20261021",
+      "path": "reports/美团/估值审计-20261021/audit_scope.md",
+      "bucket": "公司",
+      "group": "美团",
+      "series": "估值审计-20261021",
+      "type": "底稿",
+      "date": "2026-10-21",
+      "date_source": "文件名",
+      "ticker": ""
+    },
     {
       "title": "MiniMax（0100.HK）投资研究报告 — 股价从1330跌到171.5之后，这门生意该怎么定价",
       "path": "reports/MINIMAX/MiniMax-research-20261020.md",

@@ -1,0 +1,461 @@
+{
+  "market": {
+    "price_HKD": "76.10",
+    "shares_100m": "61.75508233",
+    "fx_CNY_per_HKD": "0.85628",
+    "mcap_HKD_100m": "4699.561765",
+    "mcap_CNY_100m": "4024.140748",
+    "net_cash_CNY_100m": "724.968680",
+    "ev_total_CNY_100m": "3299.172068",
+    "ev_core_CNY_100m": "2526.364208",
+    "price_per_share_CNY": "88.872799"
+  },
+  "ten_year": {
+    "bear": {
+      "g": "0.01",
+      "exit_pe": "13.333333",
+      "spread_pct": "7.00",
+      "profit_2036": "38.933542",
+      "cash_2036": "100",
+      "invest_2036": "100",
+      "terminal_mcap_CNY_100m": "719.113894",
+      "per_share_CNY": "11.644611",
+      "per_share_HKD": "13.599069",
+      "profit_equiv_for_tool": "53.933542",
+      "irr_10y_pct": "-15.8200",
+      "irr_10y_with_dilution_pct": "-17.7200",
+      "irr_recomputed_pct": "-15.8193",
+      "irr_vs_price_pct": "-82.1300"
+    },
+    "base": {
+      "g": "0.02",
+      "exit_pe": "14.444444",
+      "spread_pct": "6.00",
+      "profit_2036": "673.954803",
+      "cash_2036": "500",
+      "invest_2036": "250",
+      "terminal_mcap_CNY_100m": "10484.902708",
+      "per_share_CNY": "169.782021",
+      "per_share_HKD": "198.278625",
+      "profit_equiv_for_tool": "725.877880",
+      "irr_10y_pct": "10.0500",
+      "irr_10y_with_dilution_pct": "8.1500",
+      "irr_recomputed_pct": "10.0498",
+      "irr_vs_price_pct": "160.5501",
+      "_raw_tool_output": "\nIRR = (2036市值 / 今日市值)^(1/10) - 1 + 股息率 - 稀释率\n\n  2036 市值 = 726 x 14.4x = 10,485\n  今日市值 = 4,024\n  总倍数   = 2.6055\n  几何年化 = +10.05%\n  股息-稀释 = +0.00%\n\n  IRR = +10.05%\n\n"
+    },
+    "bull": {
+      "g": "0.03",
+      "exit_pe": "16.000000",
+      "spread_pct": "5.00",
+      "profit_2036": "1398.636819",
+      "cash_2036": "800",
+      "invest_2036": "400",
+      "terminal_mcap_CNY_100m": "23578.189101",
+      "per_share_CNY": "381.801598",
+      "per_share_HKD": "445.884054",
+      "profit_equiv_for_tool": "1473.636819",
+      "irr_10y_pct": "19.3400",
+      "irr_10y_with_dilution_pct": "17.4400",
+      "irr_recomputed_pct": "19.3394",
+      "irr_vs_price_pct": "485.9186"
+    }
+  },
+  "reverse_dcf": {
+    "bear": {
+      "exit_pe": "13.333333",
+      "tv_required_CNY_100m": "8687.818054",
+      "implied_profit_2036": "636.586354",
+      "implied_profit_vs_model_pct": "1635.06",
+      "implied_core_rev_x_margin": "1085.732943",
+      "implied_core_rev_CAGR_pct": "15.7263",
+      "model_core_rev_CAGR_pct": "3.0000",
+      "implied_core_margin_pct": "28.8531",
+      "model_core_margin_pct": "9.00"
+    },
+    "base": {
+      "exit_pe": "14.444444",
+      "tv_required_CNY_100m": "8687.818054",
+      "implied_profit_2036": "549.541250",
+      "implied_profit_vs_model_pct": "81.54",
+      "implied_core_rev_x_margin": "696.926562",
+      "implied_core_rev_CAGR_pct": "3.8862",
+      "model_core_rev_CAGR_pct": "6.0000",
+      "implied_core_margin_pct": "13.8986",
+      "model_core_margin_pct": "17.00"
+    },
+    "bull": {
+      "exit_pe": "16.000000",
+      "tv_required_CNY_100m": "8687.818054",
+      "implied_profit_2036": "467.988628",
+      "implied_profit_vs_model_pct": "33.46",
+      "implied_core_rev_x_margin": "294.985785",
+      "implied_core_rev_CAGR_pct": "-7.0986",
+      "model_core_rev_CAGR_pct": "9.0000",
+      "implied_core_margin_pct": "4.4502",
+      "model_core_margin_pct": "22.00"
+    }
+  },
+  "three_year": {
+    "bear": {
+      "profit_2029": "-55.23",
+      "pe_2029": "12",
+      "equity_value_CNY_100m": "100.000000",
+      "per_share_HKD_2029": "1.891087",
+      "pv_at_8pct_HKD": "1.501206",
+      "pv_at_10pct_HKD": "1.420802",
+      "cagr_to_2029_at_8pct_pct": "-70.8184",
+      "cagr_to_2029_at_10pct_pct": "-70.8184"
+    },
+    "base": {
+      "profit_2029": "252.1734848",
+      "pe_2029": "14.4444444444444444444444",
+      "equity_value_CNY_100m": "4392.505892",
+      "per_share_HKD_2029": "83.066105",
+      "pv_at_8pct_HKD": "65.940552",
+      "pv_at_10pct_HKD": "62.408794",
+      "cagr_to_2029_at_8pct_pct": "2.9627",
+      "cagr_to_2029_at_10pct_pct": "2.9627"
+    },
+    "bull": {
+      "profit_2029": "484.6592",
+      "pe_2029": "16",
+      "equity_value_CNY_100m": "8954.547200",
+      "per_share_HKD_2029": "169.338272",
+      "pv_at_8pct_HKD": "134.426180",
+      "pv_at_10pct_HKD": "127.226350",
+      "cagr_to_2029_at_8pct_pct": "30.5540",
+      "cagr_to_2029_at_10pct_pct": "30.5540"
+    }
+  },
+  "sensitivity": [
+    {
+      "r": "0.07",
+      "roic": "0.12",
+      "exit_pe": "16.6667",
+      "spread_pct": "5.00",
+      "irr_10y_pct": "11.5290",
+      "per_share_HKD": "226.6010"
+    },
+    {
+      "r": "0.07",
+      "roic": "0.15",
+      "exit_pe": "17.3333",
+      "spread_pct": "5.00",
+      "irr_10y_pct": "11.9403",
+      "per_share_HKD": "235.0977"
+    },
+    {
+      "r": "0.07",
+      "roic": "0.18",
+      "exit_pe": "17.7778",
+      "spread_pct": "5.00",
+      "irr_10y_pct": "12.2071",
+      "per_share_HKD": "240.7622"
+    },
+    {
+      "r": "0.08",
+      "roic": "0.12",
+      "exit_pe": "13.8889",
+      "spread_pct": "6.00",
+      "irr_10y_pct": "9.6503",
+      "per_share_HKD": "191.1980"
+    },
+    {
+      "r": "0.08",
+      "roic": "0.15",
+      "exit_pe": "14.4444",
+      "spread_pct": "6.00",
+      "irr_10y_pct": "10.0498",
+      "per_share_HKD": "198.2786"
+    },
+    {
+      "r": "0.08",
+      "roic": "0.18",
+      "exit_pe": "14.8148",
+      "spread_pct": "6.00",
+      "irr_10y_pct": "10.3090",
+      "per_share_HKD": "202.9990"
+    },
+    {
+      "r": "0.09",
+      "roic": "0.12",
+      "exit_pe": "11.9048",
+      "spread_pct": "7.00",
+      "irr_10y_pct": "8.1058",
+      "per_share_HKD": "165.9102"
+    },
+    {
+      "r": "0.09",
+      "roic": "0.15",
+      "exit_pe": "12.3810",
+      "spread_pct": "7.00",
+      "irr_10y_pct": "8.4949",
+      "per_share_HKD": "171.9793"
+    },
+    {
+      "r": "0.09",
+      "roic": "0.18",
+      "exit_pe": "12.6984",
+      "spread_pct": "7.00",
+      "irr_10y_pct": "8.7474",
+      "per_share_HKD": "176.0253"
+    },
+    {
+      "r": "0.10",
+      "roic": "0.12",
+      "exit_pe": "10.4167",
+      "spread_pct": "8.00",
+      "irr_10y_pct": "6.8014",
+      "per_share_HKD": "146.9443"
+    },
+    {
+      "r": "0.10",
+      "roic": "0.15",
+      "exit_pe": "10.8333",
+      "spread_pct": "8.00",
+      "irr_10y_pct": "7.1812",
+      "per_share_HKD": "152.2548"
+    },
+    {
+      "r": "0.10",
+      "roic": "0.18",
+      "exit_pe": "11.1111",
+      "spread_pct": "8.00",
+      "irr_10y_pct": "7.4279",
+      "per_share_HKD": "155.7951"
+    }
+  ],
+  "path_dependency_2036_profit": [
+    {
+      "profit_2036": "100",
+      "cagr_2029_2036_pct": "-12.3778",
+      "terminal_mcap_CNY_100m": "2194.444444",
+      "irr_10y_pct": "-5.8836",
+      "per_share_HKD_2036": "41.4989"
+    },
+    {
+      "profit_2036": "150",
+      "cagr_2029_2036_pct": "-7.1525",
+      "terminal_mcap_CNY_100m": "2916.666667",
+      "irr_10y_pct": "-3.1675",
+      "per_share_HKD_2036": "55.1567"
+    },
+    {
+      "profit_2036": "200",
+      "cagr_2029_2036_pct": "-3.2572",
+      "terminal_mcap_CNY_100m": "3638.888889",
+      "irr_10y_pct": "-1.0013",
+      "per_share_HKD_2036": "68.8146"
+    },
+    {
+      "profit_2036": "252.1734848",
+      "cagr_2029_2036_pct": "0.0000",
+      "terminal_mcap_CNY_100m": "4392.505892",
+      "irr_10y_pct": "0.8797",
+      "per_share_HKD_2036": "83.0661"
+    },
+    {
+      "profit_2036": "350",
+      "cagr_2029_2036_pct": "4.7945",
+      "terminal_mcap_CNY_100m": "5805.555556",
+      "irr_10y_pct": "3.7330",
+      "per_share_HKD_2036": "109.7881"
+    },
+    {
+      "profit_2036": "450",
+      "cagr_2029_2036_pct": "8.6252",
+      "terminal_mcap_CNY_100m": "7250.000000",
+      "irr_10y_pct": "6.0636",
+      "per_share_HKD_2036": "137.1038"
+    },
+    {
+      "profit_2036": "550",
+      "cagr_2029_2036_pct": "11.7842",
+      "terminal_mcap_CNY_100m": "8694.444444",
+      "irr_10y_pct": "8.0082",
+      "per_share_HKD_2036": "164.4195"
+    },
+    {
+      "profit_2036": "673.95480284351865916620800",
+      "cagr_2029_2036_pct": "15.0774",
+      "terminal_mcap_CNY_100m": "10484.902708",
+      "irr_10y_pct": "10.0498",
+      "per_share_HKD_2036": "198.2786"
+    },
+    {
+      "profit_2036": "900",
+      "cagr_2029_2036_pct": "19.9319",
+      "terminal_mcap_CNY_100m": "13750.000000",
+      "irr_10y_pct": "13.0741",
+      "per_share_HKD_2036": "260.0245"
+    },
+    {
+      "profit_2036": "1100",
+      "cagr_2029_2036_pct": "23.4198",
+      "terminal_mcap_CNY_100m": "16638.888889",
+      "irr_10y_pct": "15.2511",
+      "per_share_HKD_2036": "314.6559"
+    },
+    {
+      "profit_2036": "1398.63681883899537292012800",
+      "cagr_2029_2036_pct": "27.7281",
+      "terminal_mcap_CNY_100m": "20952.531828",
+      "irr_10y_pct": "17.9387",
+      "per_share_HKD_2036": "396.2306"
+    }
+  ],
+  "fx_drag": [
+    {
+      "scenario": "bear",
+      "rmb_dep_per_yr": "0",
+      "irr_CNY_pct": "-15.8193",
+      "irr_HKD_pct": "-15.8193"
+    },
+    {
+      "scenario": "bear",
+      "rmb_dep_per_yr": "0.01",
+      "irr_CNY_pct": "-15.8193",
+      "irr_HKD_pct": "-16.6528"
+    },
+    {
+      "scenario": "bear",
+      "rmb_dep_per_yr": "0.02",
+      "irr_CNY_pct": "-15.8193",
+      "irr_HKD_pct": "-17.4699"
+    },
+    {
+      "scenario": "bear",
+      "rmb_dep_per_yr": "0.03",
+      "irr_CNY_pct": "-15.8193",
+      "irr_HKD_pct": "-18.2712"
+    },
+    {
+      "scenario": "base",
+      "rmb_dep_per_yr": "0",
+      "irr_CNY_pct": "10.0498",
+      "irr_HKD_pct": "10.0498"
+    },
+    {
+      "scenario": "base",
+      "rmb_dep_per_yr": "0.01",
+      "irr_CNY_pct": "10.0498",
+      "irr_HKD_pct": "8.9602"
+    },
+    {
+      "scenario": "base",
+      "rmb_dep_per_yr": "0.02",
+      "irr_CNY_pct": "10.0498",
+      "irr_HKD_pct": "7.8920"
+    },
+    {
+      "scenario": "base",
+      "rmb_dep_per_yr": "0.03",
+      "irr_CNY_pct": "10.0498",
+      "irr_HKD_pct": "6.8445"
+    },
+    {
+      "scenario": "bull",
+      "rmb_dep_per_yr": "0",
+      "irr_CNY_pct": "19.3394",
+      "irr_HKD_pct": "19.3394"
+    },
+    {
+      "scenario": "bull",
+      "rmb_dep_per_yr": "0.01",
+      "irr_CNY_pct": "19.3394",
+      "irr_HKD_pct": "18.1578"
+    },
+    {
+      "scenario": "bull",
+      "rmb_dep_per_yr": "0.02",
+      "irr_CNY_pct": "19.3394",
+      "irr_HKD_pct": "16.9994"
+    },
+    {
+      "scenario": "bull",
+      "rmb_dep_per_yr": "0.03",
+      "irr_CNY_pct": "19.3394",
+      "irr_HKD_pct": "15.8635"
+    }
+  ],
+  "price_to_irr": [
+    {
+      "price_HKD": "45",
+      "mcap_CNY_100m": "2379.583885",
+      "irr_10y_CNY_pct": "15.9862",
+      "irr_10y_HKD_2pct_fx_drag_pct": "13.7120",
+      "cagr_3y_to_2029_pct": "22.6696"
+    },
+    {
+      "price_HKD": "50",
+      "mcap_CNY_100m": "2643.982095",
+      "irr_10y_CNY_pct": "14.7706",
+      "irr_10y_HKD_2pct_fx_drag_pct": "12.5202",
+      "cagr_3y_to_2029_pct": "18.4362"
+    },
+    {
+      "price_HKD": "55",
+      "mcap_CNY_100m": "2908.380304",
+      "irr_10y_CNY_pct": "13.6819",
+      "irr_10y_HKD_2pct_fx_drag_pct": "11.4528",
+      "cagr_3y_to_2029_pct": "14.7327"
+    },
+    {
+      "price_HKD": "60",
+      "mcap_CNY_100m": "3172.778514",
+      "irr_10y_CNY_pct": "12.6970",
+      "irr_10y_HKD_2pct_fx_drag_pct": "10.4873",
+      "cagr_3y_to_2029_pct": "11.4528"
+    },
+    {
+      "price_HKD": "65",
+      "mcap_CNY_100m": "3437.176723",
+      "irr_10y_CNY_pct": "11.7986",
+      "irr_10y_HKD_2pct_fx_drag_pct": "9.6064",
+      "cagr_3y_to_2029_pct": "8.5184"
+    },
+    {
+      "price_HKD": "70",
+      "mcap_CNY_100m": "3701.574933",
+      "irr_10y_CNY_pct": "10.9731",
+      "irr_10y_HKD_2pct_fx_drag_pct": "8.7972",
+      "cagr_3y_to_2029_pct": "5.8706"
+    },
+    {
+      "price_HKD": "72.25",
+      "mcap_CNY_100m": "3820.554127",
+      "irr_10y_CNY_pct": "10.6226",
+      "irr_10y_HKD_2pct_fx_drag_pct": "8.4535",
+      "cagr_3y_to_2029_pct": "4.7600"
+    },
+    {
+      "price_HKD": "76.10",
+      "mcap_CNY_100m": "4024.140748",
+      "irr_10y_CNY_pct": "10.0498",
+      "irr_10y_HKD_2pct_fx_drag_pct": "7.8919",
+      "cagr_3y_to_2029_pct": "2.9627"
+    },
+    {
+      "price_HKD": "80",
+      "mcap_CNY_100m": "4230.371352",
+      "irr_10y_CNY_pct": "9.5011",
+      "irr_10y_HKD_2pct_fx_drag_pct": "7.3540",
+      "cagr_3y_to_2029_pct": "1.2616"
+    },
+    {
+      "price_HKD": "85",
+      "mcap_CNY_100m": "4494.769561",
+      "irr_10y_CNY_pct": "8.8393",
+      "irr_10y_HKD_2pct_fx_drag_pct": "6.7052",
+      "cagr_3y_to_2029_pct": "-0.7642"
+    },
+    {
+      "price_HKD": "90",
+      "mcap_CNY_100m": "4759.167771",
+      "irr_10y_CNY_pct": "8.2190",
+      "irr_10y_HKD_2pct_fx_drag_pct": "6.0970",
+      "cagr_3y_to_2029_pct": "-2.6370"
+    }
+  ]
+}
