@@ -1,6 +1,17 @@
 {
-  "count": 2398,
+  "count": 2399,
   "reports": [
+    {
+      "title": "MiniMax（0100.HK）投资研究报告 — 股价从1330跌到171.5之后，这门生意该怎么定价",
+      "path": "reports/MINIMAX/MiniMax-research-20261020.md",
+      "bucket": "公司",
+      "group": "MiniMax",
+      "series": "",
+      "type": "research",
+      "date": "2026-10-20",
+      "date_source": "front-matter",
+      "ticker": ""
+    },
     {
       "title": "贵州茅台（600519.SH）投资研究报告",
       "path": "reports/茅台/贵州茅台-research-20261018.md",
